@@ -1,4 +1,5 @@
 import { createAction, handleActions } from 'redux-actions';
+
 import { Map, fromJS } from 'immutable';
 import { pender } from 'redux-pender';
 
