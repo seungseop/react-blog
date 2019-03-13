@@ -24,7 +24,6 @@ class Post extends Component {
     if(loading) return null; // 로딩 중일 때는 아무것도 보여 주지 않음
 
     const { title, body, publishedDate, tags } = post.toJS();
-    console.log(`${tags}`);
 
     return (
       <div>

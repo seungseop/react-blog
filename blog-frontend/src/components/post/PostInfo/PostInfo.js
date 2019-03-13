@@ -15,7 +15,7 @@ const PostInfo = ({publishedDate, title, tags}) => {
         <div className={cx('tags')}>
           {
             // tags가 존재할 때만 map을 실행합니다.
-            tags & tags.map(
+            tags && tags.map(
               tag => <Link key={tag} to={`/tag/${tag}`}>#{tag}</Link>
             )
           }
