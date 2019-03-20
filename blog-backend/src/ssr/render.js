@@ -57801,14 +57801,13 @@ var cx = __WEBPACK_IMPORTED_MODULE_2_classnames_bind___default.a.bind(__WEBPACK_
 
 var NotFound = function NotFound(_ref) {
   var onGoBack = _ref.onGoBack;
-
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'div',
-    { classNames: cx('not-found') },
+    { className: cx('not-found') },
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'h2',
       null,
-      '\uC874\uC7AC\uD558\uC9C0 \uC54A\uB294 \uD398\uC774\uC9C0 \uC785\uB2C8\uB2E4.'
+      '\uC874\uC7AC\uD558\uC9C0 \uC54A\uB294 \uD398\uC774\uC9C0\uC785\uB2C8\uB2E4.'
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       __WEBPACK_IMPORTED_MODULE_3_components_common_Button__["a" /* default */],
